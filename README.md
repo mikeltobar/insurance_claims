@@ -1,6 +1,6 @@
 # Insurance claim analysis
 
-![Insurance](https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg)
+![calculator-385506_1280](https://user-images.githubusercontent.com/81832365/216644407-200349ab-4987-46fa-8af7-e1a23793f62f.jpg)
 
 ## Intro
 
