@@ -4,19 +4,19 @@
 
 ## Intro
 
-In this project, I have gone through a dataset that contains insurance claims made by about 90,000 workers. This project combines inferential statistics, regressions, predictions or ANOVA, among others.
+In this project, I have gone through a dataset that contains insurance claims made by about 90,000 workers. This project combines inferential statistics, regressions, predictions, or ANOVA, and it has been developed in R.
 
 ## Data
 
-The dataset used is available [here](https://www.kaggle.com/c/actuarial-loss-estimation/data), and it has been produced by the Actuaries Institute of Australia, the Singapore Actual Society, and the Institute and Faculty of Actuaries. The dataset will be added to the project as train1.csv.
+The dataset used is available [here](https://www.kaggle.com/c/actuarial-loss-estimation/data) [1], and it has been produced by the Actuaries Institute of Australia, the Singapore Actual Society, and the Institute and Faculty of Actuaries. The dataset will be added to the project as train1.csv.
 
 ## The analysis
 
-As introduced before, we will apply a variety of analysis and algorithms to the data. The analysis performed includes the following:
+As introduced before, we will apply a variety of analyses and algorithms to the data. The analysis performed includes the following:
 
 * Normality analysis
 * Inferential statistical analysis
-  * Confidence interval of the poblational mean of the final cost
+  * Confidence interval of the population mean of the final cost
   * Hypothesis contrast 
 * Linear regression
   * Interpretation
@@ -30,14 +30,18 @@ As introduced before, we will apply a variety of analysis and algorithms to the 
   * Hypothesis contrast
   * Model and factor analysis
   * Quality and fitness analysis
-* ANOVA (multi factor)
+* ANOVA (multi-factor)
   * Interactions and effects analysis
   * Model design and results interpretation
 
 ## Conclusions
 
-We depart from a dataset with variables that don't follow normal distributions, so in some cases we will work with logarithmical ones. Thanks to to the hypothesis contrast we can assert that the mean payment for women is more than 1000$ higher than men's.
+We depart from a dataset with variables that don't follow normal distributions, so in some cases, we will work with logarithmical ones. Thanks to the hypothesis contrast we can assert that the mean payment for women is more than 1000$ higher than for men's.
 
-We get some significative variables in the linear regression model, with a fairly good adjustment, with a median value far from the mean one. The logistic regression model doesn't excel with precision, sensitivity or specificity, but it has a good accuracy. 
+We get some significative variables in the linear regression model, with a fairly good adjustment, with a median value far from the mean one. The logistic regression model doesn't excel with precision, sensitivity, or specificity, but it has good accuracy. 
 
-Finally, the first ANOVA signals a significative classifier, with not a big influence in the final values, whereas the second ANOVA (multi-factor) asserts the factors it studies are significative, but without interaction.
+Finally, the first ANOVA signals a significative classifier, with not a big influence on the final values, whereas the second ANOVA (multi-factor) asserts the factors it studies are significative, but without interaction.
+
+## Bibliography
+
+[1] Actuarial loss prediction [online] [accessed: 25 May 2021]. Available at: https://www.kaggle.com/c/actuarial-loss-estimation/data
